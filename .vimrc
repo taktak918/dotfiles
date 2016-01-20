@@ -175,6 +175,7 @@ NeoBundle 'vim-javascript'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'xsbeats/vim-blade'
+NeoBundle 'slim-template/vim-slim'
 "NeoBundle 'simeji/winresizer'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc'
@@ -294,3 +295,8 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 syntax on
 set background=dark
 colorscheme desert
+
+
+"### rails用
+let g:surround_{char2nr("-")} = "<% \r %>"
+let g:surround_{char2nr("=")} = "<%= \r %>"
