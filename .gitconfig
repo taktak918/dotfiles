@@ -4,7 +4,7 @@
 [color]
   ui = auto
 [alias]
-  s = status -s
+  s = status -sb
   d = diff
   o = checkout
   b = branch
