@@ -75,7 +75,8 @@ usr/local/bin/vim
 
 `$ ./setup.sh`
 
-`$ vim .vimrc`
+`$ vim .vimrc`  
+  vim内で `:NeoBundleInstall`
 
 `$ exit`
 
