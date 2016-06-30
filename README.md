@@ -18,9 +18,9 @@
 ### git
 `$ brew install git`
 
-`$ git config --global user.email "takumi.mizoguchi@gmail.com”`
+`$ git config --global user.email "technuma@gmail.com”`
 
-`$ git config --global user.name "yasainet”`
+`$ git config --global user.name "technuma”`
 
 `$ git config --global color.ui auto`
 
@@ -65,7 +65,7 @@ usr/local/bin/vim
 ```
 
 ### dotfiles
-`$ git clone https://github.com/yasainet/dotfiles.git ~/dotfiles`
+`$ git clone https://github.com/technuma/dotfiles.git ~/dotfiles`
 
 `$ cd dotfiles`
 
@@ -86,8 +86,8 @@ usr/local/bin/vim
     $ sudo apt-get update
     $ sudo apt-get install git build-essential gettext
 
-    $ git config --global user.email “takumi.mizoguchi@gmail.com”
-    $ git config --global user.name “yasainet”
+    $ git config --global user.email “technuma@gmail.com”
+    $ git config --global user.name “technuma”
     $ git config --global color.ui auto
 
 vimのインストール
@@ -110,7 +110,7 @@ zshをインストールする
 
 dotfilesをcloneしてくる
 
-    $ git clone https://github.com/yasainet/dotfiles.git ~/dotfiles
+    $ git clone https://github.com/technuma/dotfiles.git ~/dotfiles
     $ cd dotfiles
     $ git submodule init
     $ git submodule update
