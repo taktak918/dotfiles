@@ -116,6 +116,7 @@ dotfilesをcloneしてくる
     $ git submodule update
     $ ./setup.sh
     $ vim .vimrc
+      vim内で :NeoBundleInstall
     $ exit
 
     $ login
